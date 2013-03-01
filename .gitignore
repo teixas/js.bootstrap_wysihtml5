@@ -1,0 +1,10 @@
+.installed.cfg
+*.pyc
+local
+bin/
+develop-eggs/
+dist/
+eggs/
+include/
+js.bootstrap_wysihtml5.egg-info/
+lib/

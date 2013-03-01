@@ -1,0 +1,3 @@
+recursive-include js/bootstrap_wysihtml5/resources *.*
+recursive-include js/bootstrap_wysihtml5 *.txt
+include *.txt
