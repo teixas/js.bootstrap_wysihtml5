@@ -1,5 +1,5 @@
 js.bootstrap_wysihtml5
-*******************
+**********************
 
 Introduction
 ============
