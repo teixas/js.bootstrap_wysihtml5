@@ -14,11 +14,20 @@ wysihtml5_css = Resource(
     depends=[bootstrap_css, ],
     )
 
-wysihtml5_js = Resource(
+bootstrap_wysihtml5_js = Resource(
     library,
     'js/bootstrap-wysihtml5-0.0.2.js',
     depends=[wysihtml5, bootstrap_js, ],
     minified='js/bootstrap-wysihtml5-0.0.2.min.js',
     )
 
-bootstrap_wysihtml5 = Group([wysihtml5_css, wysihtml5_js])
+bootstrap_wysihtml5 = Group([wysihtml5_css, bootstrap_wysihtml5_js])
+
+bootstrap3_wysihtml5_js = Resource(
+    library,
+    'js/bootstrap3-wysihtml5-0.0.2.js',
+    depends=[wysihtml5, bootstrap_js, ],
+    minified='js/bootstrap3-wysihtml5-0.0.2.min.js',
+    )
+
+bootstrap3_wysihtml5 = Group([wysihtml5_css, bootstrap3_wysihtml5_js])
