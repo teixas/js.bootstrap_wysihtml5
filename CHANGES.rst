@@ -1,6 +1,11 @@
 CHANGES
 *******
 
+0.0.2-3
+=======
+
+- Add renamed document files to MANIFEST
+
 0.0.2-2
 =======
 
